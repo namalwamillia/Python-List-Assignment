@@ -54,16 +54,20 @@ print(studentNames)
 
 # display the length of the students list
 
+length = len(studentNames)
 print(f"The Number of Students is ",len(studentNames))
-#print all the students names using a for loop
 
-for x in studentNames:
-    print(x)
+#print all the students names using a for loop
+for each_student_name in studentNames:
+    print(each_student_name)
 # calc the total marks for the students marks variable
 
 def total_marks():
-    return sum
-student_total_marks = 80 + 56 + 78 + 90
-print(f'Total studentMarks is: {student_total_marks}')
+    student_marks = [80, 56, 78, 90]
+    return sum(student_marks)
+
+student_total_marks = total_marks()
+print(f'Total student marks is: {student_total_marks}')
+
 
 
