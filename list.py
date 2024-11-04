@@ -42,25 +42,25 @@ print(" Inserting Faith at Index 2:", studentNames)
 
 print(studentNames[1:5])
 
-#add Masha at the forth position
+#qn2. add Masha at the forth position
 
 studentNames[3] = 'Masha'
 print(studentNames)
 
-#update name phiona to phiona Aladinah
+#qn3. update name phiona to phiona Aladinah
 
 studentNames[4] ='Phionah Aladinah'
 print(studentNames)
 
-# display the length of the students list
+#qn4. display the length of the students list
 
 length = len(studentNames)
 print(f"The Number of Students is ",len(studentNames))
 
-#print all the students names using a for loop
+#qn5. print all the students names using a for loop
 for each_student_name in studentNames:
     print(each_student_name)
-# calc the total marks for the students marks variable
+#qn6. calculate the total marks for the students marks variable
 
 def total_marks():
     student_marks = [80, 56, 78, 90]
